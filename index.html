@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.4.5/fuse.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <style>
+  body{
+    background: #333;
+    color: #fff;
+  }
+  </style>
+  <title>weightConverter</title>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 offset-3">
+    <h1 class="display-3 mb-4"> Convert It </h1>
+    <form>
+      <div class="form-group">
+        <input
+        id="inputText"
+        type="text"
+        class="form-control-lg"
+        placeholder="Enter Value">
+      </div>
+    </form>
+    <div id="output">
+      <div class="card bg-primary">
+        <div class="card-body">
+          <div id="suggestion"></div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+
+var options = {
+  shouldSort: true,
+  threshold: 0.6,
+  location: 0,
+  distance: 100,
+  maxPatternLength: 32,
+  minMatchCharLength: 1,
+  keys: ["ingredient"]
+};
+
+
+fetch('densities.json')
+  .then(response => {
+    return response.json()
+  })
+  .then(data => {
+    densities = data;
+    fuse = new Fuse(densities,options);
+  })
+
+document.getElementById('output').style.visibility='hidden'
+document.getElementById('inputText').addEventListener('input',
+function(e){
+  document.getElementById('output').style.visibility='visible'
+  let inputText = e.target.value;
+suggestion = document.getElementById('suggestion')
+result = fuse.search(inputText);
+suggestion.innerHTML=result[0].ingredient;
+
+  console.log(inputText);
+})
+</script>
+
+</body>
+</html>

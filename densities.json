@@ -1,0 +1,1107 @@
+[
+ {
+   "ingredient": "allspice, ground",
+   "density": 0.42
+ },
+ {
+   "ingredient": "almonds, ground",
+   "density": 0.36
+ },
+ {
+   "ingredient": "almonds, sliced",
+   "density": 0.39
+ },
+ {
+   "ingredient": "almonds, whole",
+   "density": 0.66
+ },
+ {
+   "ingredient": "anchovies",
+   "density": 1.02
+ },
+ {
+   "ingredient": "anise seed, whole",
+   "density": 0.45
+ },
+ {
+   "ingredient": "apples, dried",
+   "density": 0.38
+ },
+ {
+   "ingredient": "apples, sliced",
+   "density": 0.76
+ },
+ {
+   "ingredient": "apricots, dried",
+   "density": 0.64
+ },
+ {
+   "ingredient": "arrowroot",
+   "density": 0.95
+ },
+ {
+   "ingredient": "arrowroot flour",
+   "density": 0.54
+ },
+ {
+   "ingredient": "bacon fat",
+   "density": 0.76
+ },
+ {
+   "ingredient": "baking powder",
+   "density": 0.76
+ },
+ {
+   "ingredient": "baking soda",
+   "density": 0.87
+ },
+ {
+   "ingredient": "bamboo shoots",
+   "density": 1.14
+ },
+ {
+   "ingredient": "bananas, mashed",
+   "density": 0.97
+ },
+ {
+   "ingredient": "bananas, sliced",
+   "density": 0.76
+ },
+ {
+   "ingredient": "barley flour",
+   "density": 0.63
+ },
+ {
+   "ingredient": "barley, uncooked",
+   "density": 0.78
+ },
+ {
+   "ingredient": "basil, dried",
+   "density": 0.11
+ },
+ {
+   "ingredient": "basil, dried leaves",
+   "density": 0.14
+ },
+ {
+   "ingredient": "bay leaf, crumbled",
+   "density": 0.12
+ },
+ {
+   "ingredient": "beans, dried",
+   "density": 0.85
+ },
+ {
+   "ingredient": "beef, cooked",
+   "density": 0.97
+ },
+ {
+   "ingredient": "beef, raw",
+   "density": 0.93
+ },
+ {
+   "ingredient": "biscuit mix (Bisquick)",
+   "density": 0.55
+ },
+ {
+   "ingredient": "blackberries, raw",
+   "density": 0.61
+ },
+ {
+   "ingredient": "blue corn meal",
+   "density": 0.51
+ },
+ {
+   "ingredient": "blueberries, raw",
+   "density": 0.63
+ },
+ {
+   "ingredient": "bran, unsifted",
+   "density": 0.23
+ },
+ {
+   "ingredient": "brazil nuts, whole",
+   "density": 0.64
+ },
+ {
+   "ingredient": "bread crumbs, fresh",
+   "density": 0.25
+ },
+ {
+   "ingredient": "bread crumbs, packaged",
+   "density": 0.51
+ },
+ {
+   "ingredient": "buckwheat groats",
+   "density": 0.72
+ },
+ {
+   "ingredient": "bulgur, dry",
+   "density": 0.59
+ },
+ {
+   "ingredient": "butter",
+   "density": 0.97
+ },
+ {
+   "ingredient": "butter, stick",
+   "specificUnit": 114.75,
+   "density": 0.97
+ },
+ {
+   "ingredient": "buttermilk",
+   "density": 1.04
+ },
+ {
+   "ingredient": "cabbage, shredded",
+   "density": 1.44
+ },
+ {
+   "ingredient": "cake crumbs, fresh",
+   "density": 0.38
+ },
+ {
+   "ingredient": "candied lemon peel",
+   "density": 0.57
+ },
+ {
+   "ingredient": "candied orange peel",
+   "density": 0.53
+ },
+ {
+   "ingredient": "caraway seed, whole",
+   "density": 0.45
+ },
+ {
+   "ingredient": "cardamom, ground",
+   "density": 0.39
+ },
+ {
+   "ingredient": "carob flour",
+   "density": 0.44
+ },
+ {
+   "ingredient": "carrots, raw, chopped",
+   "density": 0.54
+ },
+ {
+   "ingredient": "carrots, raw, grated",
+   "density": 0.46
+ },
+ {
+   "ingredient": "cashews, oil roasted",
+   "density": 0.47
+ },
+ {
+   "ingredient": "cauliflower fleurets",
+   "density": 0.97
+ },
+ {
+   "ingredient": "cayenne, powder",
+   "density": 0.35
+ },
+ {
+   "ingredient": "celery seed",
+   "density": 0.43
+ },
+ {
+   "ingredient": "cereal, Rice Krispies",
+   "density": 0.09
+ },
+ {
+   "ingredient": "cheese, cheddar, grated",
+   "density": 0.51
+ },
+ {
+   "ingredient": "cheese, colby, grated",
+   "density": 0.47
+ },
+ {
+   "ingredient": "cheese, cottage",
+   "density": 0.97
+ },
+ {
+   "ingredient": "cheese, cream",
+   "density": 1.02
+ },
+ {
+   "ingredient": "cheese, grated parmesan",
+   "density": 0.59
+ },
+ {
+   "ingredient": "cheese, jack, grated",
+   "density": 0.55
+ },
+ {
+   "ingredient": "chervil, dried",
+   "density": 0.13
+ },
+ {
+   "ingredient": "chili powder",
+   "density": 0.53
+ },
+ {
+   "ingredient": "chives, chopped dried",
+   "density": 0.03
+ },
+ {
+   "ingredient": "chives, chopped fresh",
+   "density": 0.21
+ },
+ {
+   "ingredient": "chocolate chips",
+   "density": 0.76
+ },
+ {
+   "ingredient": "chocolate, cocoa powder",
+   "density": 0.43
+ },
+ {
+   "ingredient": "chocolate, grated",
+   "density": 0.42
+ },
+ {
+   "ingredient": "chocolate, melted",
+   "density": 1.02
+ },
+ {
+   "ingredient": "cinnamon, ground",
+   "density": 0.52
+ },
+ {
+   "ingredient": "cloves, ground",
+   "density": 0.41
+ },
+ {
+   "ingredient": "cloves, whole",
+   "density": 0.38
+ },
+ {
+   "ingredient": "cocoa powder",
+   "density": 0.43
+ },
+ {
+   "ingredient": "coconut, shredded",
+   "density": 0.32
+ },
+ {
+   "ingredient": "coffee, ground",
+   "density": 0.38
+ },
+ {
+   "ingredient": "coffee, instant",
+   "density": 0.23
+ },
+ {
+   "ingredient": "coriander seed",
+   "density": 0.33
+ },
+ {
+   "ingredient": "corn, sweet yellow, raw",
+   "density": 0.61
+ },
+ {
+   "ingredient": "cornmeal",
+   "density": 0.72
+ },
+ {
+   "ingredient": "cornstarch (cornflour)",
+   "density": 0.59
+ },
+ {
+   "ingredient": "cracker crumbs",
+   "density": 0.25
+ },
+ {
+   "ingredient": "cranberries, raw, chopped",
+   "density": 0.46
+ },
+ {
+   "ingredient": "cranberries, raw, whole",
+   "density": 0.42
+ },
+ {
+   "ingredient": "cream",
+   "density": 1.01
+ },
+ {
+   "ingredient": "cream of tartar",
+   "density": 0.64
+ },
+ {
+   "ingredient": "cream of wheat",
+   "density": 0.76
+ },
+ {
+   "ingredient": "crisco, melted",
+   "density": 0.89
+ },
+ {
+   "ingredient": "crisco, solid",
+   "density": 0.93
+ },
+ {
+   "ingredient": "cumin seed, whole",
+   "density": 0.4
+ },
+ {
+   "ingredient": "currants",
+   "density": 0.64
+ },
+ {
+   "ingredient": "curry powder",
+   "density": 0.43
+ },
+ {
+   "ingredient": "dates, chopped",
+   "density": 0.64
+ },
+ {
+   "ingredient": "dill seed",
+   "density": 0.44
+ },
+ {
+   "ingredient": "egg",
+   "specificUnit": 60.5,
+   "density": 0.97
+ },
+ {
+   "ingredient": "egg noodles",
+   "density": 0.38
+ },
+ {
+   "ingredient": "egg white",
+   "specificUnit": 34.5,
+   "density": 0.93
+ },
+ {
+   "ingredient": "egg yolk",
+   "specificUnit": 20,
+   "density": 1.14
+ },
+ {
+   "ingredient": "egg, beaten",
+   "specificUnit": 60.5,
+   "density": 0.97
+ },
+ {
+   "ingredient": "elderberries, raw",
+   "density": 0.61
+ },
+ {
+   "ingredient": "evaporated milk",
+   "density": 0.93
+ },
+ {
+   "ingredient": "farina",
+   "density": 0.76
+ },
+ {
+   "ingredient": "fat, duck",
+   "density": 0.87
+ },
+ {
+   "ingredient": "fennel seed, whole",
+   "density": 0.39
+ },
+ {
+   "ingredient": "fenugreek seed",
+   "density": 0.74
+ },
+ {
+   "ingredient": "figs, dried",
+   "density": 0.66
+ },
+ {
+   "ingredient": "flour",
+   "density": 0.6
+ },
+ {
+   "ingredient": "flour, plain wheat",
+   "density": 0.6
+ },
+ {
+   "ingredient": "flour, plain wheat - scooped",
+   "density": 0.65
+ },
+ {
+   "ingredient": "flour, plain wheat - spooned",
+   "density": 0.55
+ },
+ {
+   "ingredient": "flour, potato",
+   "density": 0.72
+ },
+ {
+   "ingredient": "flour, rice",
+   "density": 0.64
+ },
+ {
+   "ingredient": "flour, semolina",
+   "density": 0.74
+ },
+ {
+   "ingredient": "flour, whole wheat",
+   "density": 0.55
+ },
+ {
+   "ingredient": "fungus, wood ear",
+   "density": 0.42
+ },
+ {
+   "ingredient": "garlic powder",
+   "density": 0.68
+ },
+ {
+   "ingredient": "garlic, minced",
+   "density": 0.64
+ },
+ {
+   "ingredient": "gelatin",
+   "density": 0.93
+ },
+ {
+   "ingredient": "ginger root, raw",
+   "density": 0.4
+ },
+ {
+   "ingredient": "ginger root, raw, slices",
+   "density": 0.41
+ },
+ {
+   "ingredient": "ginger, crystal",
+   "density": 1.02
+ },
+ {
+   "ingredient": "ginger, fresh",
+   "density": 0.97
+ },
+ {
+   "ingredient": "ginger, ground",
+   "density": 0.43
+ },
+ {
+   "ingredient": "gooseberries, raw",
+   "density": 0.63
+ },
+ {
+   "ingredient": "graham cracker crumbs",
+   "density": 0.38
+ },
+ {
+   "ingredient": "grape nuts",
+   "density": 0.51
+ },
+ {
+   "ingredient": "gumdrops",
+   "density": 0.68
+ },
+ {
+   "ingredient": "gummi bears",
+   "density": 0.64
+ },
+ {
+   "ingredient": "hazelnuts, whole",
+   "density": 0.72
+ },
+ {
+   "ingredient": "honey",
+   "density": 1.44
+ },
+ {
+   "ingredient": "kasha",
+   "density": 0.72
+ },
+ {
+   "ingredient": "ketchup",
+   "density": 1.16
+ },
+ {
+   "ingredient": "lard",
+   "density": 0.93
+ },
+ {
+   "ingredient": "lemon juice",
+   "density": 1.03
+ },
+ {
+   "ingredient": "lemon rind, grated",
+   "density": 0.64
+ },
+ {
+   "ingredient": "lentils",
+   "density": 0.85
+ },
+ {
+   "ingredient": "macaroni, uncooked",
+   "density": 0.49
+ },
+ {
+   "ingredient": "mace, ground",
+   "density": 0.35
+ },
+ {
+   "ingredient": "margarine",
+   "density": 0.93
+ },
+ {
+   "ingredient": "marjoram, dried",
+   "density": 0.11
+ },
+ {
+   "ingredient": "marshmallows, small",
+   "density": 0.21
+ },
+ {
+   "ingredient": "mashed potatoes",
+   "density": 0.89
+ },
+ {
+   "ingredient": "mayonnaise",
+   "density": 0.93
+ },
+ {
+   "ingredient": "milk",
+   "density": 1
+ },
+ {
+   "ingredient": "milk, evaporated",
+   "density": 0.93
+ },
+ {
+   "ingredient": "milk, powdered",
+   "density": 0.49
+ },
+ {
+   "ingredient": "millet flour",
+   "density": 0.5
+ },
+ {
+   "ingredient": "molasses",
+   "density": 1.45
+ },
+ {
+   "ingredient": "mulberries, raw",
+   "density": 0.59
+ },
+ {
+   "ingredient": "mushrooms, Chinese black",
+   "density": 0.21
+ },
+ {
+   "ingredient": "mushrooms, chopped",
+   "density": 0.32
+ },
+ {
+   "ingredient": "mushrooms, sliced",
+   "density": 0.28
+ },
+ {
+   "ingredient": "mushrooms, whole",
+   "density": 0.25
+ },
+ {
+   "ingredient": "mustard seed",
+   "density": 0.64
+ },
+ {
+   "ingredient": "mustard seed, ground",
+   "density": 0.42
+ },
+ {
+   "ingredient": "mustard, dry",
+   "density": 0.49
+ },
+ {
+   "ingredient": "mustard, prepared",
+   "density": 1.06
+ },
+ {
+   "ingredient": "nutmeg, ground",
+   "density": 0.47
+ },
+ {
+   "ingredient": "oatmeal, uncooked",
+   "density": 0.34
+ },
+ {
+   "ingredient": "oats, rolled",
+   "density": 0.34
+ },
+ {
+   "ingredient": "oats, steel-cut",
+   "density": 0.68
+ },
+ {
+   "ingredient": "oil, vegetable",
+   "density": 0.89
+ },
+ {
+   "ingredient": "olive oil",
+   "density": 0.81
+ },
+ {
+   "ingredient": "olives, chopped",
+   "density": 0.76
+ },
+ {
+   "ingredient": "onion, chopped",
+   "density": 0.64
+ },
+ {
+   "ingredient": "onion, minced",
+   "density": 0.85
+ },
+ {
+   "ingredient": "onion, sliced",
+   "density": 0.55
+ },
+ {
+   "ingredient": "orange rind, grated",
+   "density": 0.38
+ },
+ {
+   "ingredient": "oregano, dried, ground",
+   "density": 0.36
+ },
+ {
+   "ingredient": "oregano, dried, leaves",
+   "density": 0.2
+ },
+ {
+   "ingredient": "oreo cookies, crushed",
+   "density": 0.51
+ },
+ {
+   "ingredient": "paprika",
+   "density": 0.49
+ },
+ {
+   "ingredient": "paprika powder",
+   "density": 0.45
+ },
+ {
+   "ingredient": "parsley, dried",
+   "density": 0.11
+ },
+ {
+   "ingredient": "parsley, fresh",
+   "density": 0.17
+ },
+ {
+   "ingredient": "pasta, egg noodles",
+   "density": 0.38
+ },
+ {
+   "ingredient": "pasta, macaroni",
+   "density": 0.49
+ },
+ {
+   "ingredient": "peanut butter",
+   "density": 0.76
+ },
+ {
+   "ingredient": "peanuts",
+   "density": 0.62
+ },
+ {
+   "ingredient": "peanuts, chopped",
+   "density": 0.68
+ },
+ {
+   "ingredient": "peanuts, oil roasted",
+   "density": 0.64
+ },
+ {
+   "ingredient": "peas, green, raw",
+   "density": 0.61
+ },
+ {
+   "ingredient": "peas, uncooked",
+   "density": 0.64
+ },
+ {
+   "ingredient": "pecans",
+   "density": 0.46
+ },
+ {
+   "ingredient": "pecans, chopped",
+   "density": 0.51
+ },
+ {
+   "ingredient": "pecans, ground",
+   "density": 0.42
+ },
+ {
+   "ingredient": "pecans, shelled",
+   "density": 0.51
+ },
+ {
+   "ingredient": "pepper, black, ground",
+   "density": 0.46
+ },
+ {
+   "ingredient": "pepper, white, ground",
+   "density": 0.47
+ },
+ {
+   "ingredient": "peppercorns, black",
+   "density": 0.57
+ },
+ {
+   "ingredient": "peppercorns, white",
+   "density": 0.64
+ },
+ {
+   "ingredient": "peppers, chopped chili",
+   "density": 0.72
+ },
+ {
+   "ingredient": "pignolias (pine nuts)",
+   "density": 0.53
+ },
+ {
+   "ingredient": "pistachio nuts, raw",
+   "density": 0.52
+ },
+ {
+   "ingredient": "poppy seeds",
+   "density": 0.58
+ },
+ {
+   "ingredient": "potato flour",
+   "density": 0.68
+ },
+ {
+   "ingredient": "potatoes, cooked diced",
+   "density": 0.85
+ },
+ {
+   "ingredient": "potatoes, mashed",
+   "density": 0.89
+ },
+ {
+   "ingredient": "potatoes, sliced raw",
+   "density": 0.76
+ },
+ {
+   "ingredient": "pumpkin pie spice",
+   "density": 0.37
+ },
+ {
+   "ingredient": "pumpkin, cooked",
+   "density": 0.76
+ },
+ {
+   "ingredient": "quinoa, uncooked",
+   "density": 0.72
+ },
+ {
+   "ingredient": "raisins, seedless, not packed",
+   "density": 0.61
+ },
+ {
+   "ingredient": "raisins, seedless, packed",
+   "density": 0.7
+ },
+ {
+   "ingredient": "raspberries, raw",
+   "density": 0.52
+ },
+ {
+   "ingredient": "rice flour, brown",
+   "density": 0.67
+ },
+ {
+   "ingredient": "rice flour, white",
+   "density": 0.67
+ },
+ {
+   "ingredient": "rice, arborio uncooked",
+   "density": 0.77
+ },
+ {
+   "ingredient": "rice, brown, long-grain, uncooked",
+   "density": 0.78
+ },
+ {
+   "ingredient": "rice, brown, medium-grain, uncooked",
+   "density": 0.8
+ },
+ {
+   "ingredient": "rice, steamed",
+   "density": 0.68
+ },
+ {
+   "ingredient": "rice, uncooked",
+   "density": 0.89
+ },
+ {
+   "ingredient": "rice, uncooked Basmati",
+   "density": 0.83
+ },
+ {
+   "ingredient": "rice, uncooked Jasmin",
+   "density": 0.78
+ },
+ {
+   "ingredient": "rice, white, glutinous, uncooked",
+   "density": 0.78
+ },
+ {
+   "ingredient": "rice, white, short-grain, uncooked",
+   "density": 0.85
+ },
+ {
+   "ingredient": "rice, wild, uncooked",
+   "density": 0.61
+ },
+ {
+   "ingredient": "rosemary, dried",
+   "density": 0.22
+ },
+ {
+   "ingredient": "rosemary, fresh",
+   "density": 0.11
+ },
+ {
+   "ingredient": "rum (40%)",
+   "density": 0.94
+ },
+ {
+   "ingredient": "rye flour, dark",
+   "density": 0.54
+ },
+ {
+   "ingredient": "rye flour, light",
+   "density": 0.43
+ },
+ {
+   "ingredient": "rye flour, medium",
+   "density": 0.43
+ },
+ {
+   "ingredient": "saffron",
+   "density": 0.14
+ },
+ {
+   "ingredient": "sage, ground",
+   "density": 0.13
+ },
+ {
+   "ingredient": "salt",
+   "density": 1.02
+ },
+ {
+   "ingredient": "salt, table",
+   "density": 1.2
+ },
+ {
+   "ingredient": "scallions (green onions)",
+   "density": 0.21
+ },
+ {
+   "ingredient": "sesame seeds",
+   "density": 0.68
+ },
+ {
+   "ingredient": "shallots",
+   "density": 1.02
+ },
+ {
+   "ingredient": "sour cream",
+   "density": 0.51
+ },
+ {
+   "ingredient": "soy sauce",
+   "density": 1.07
+ },
+ {
+   "ingredient": "soymilk",
+   "density": 1.03
+ },
+ {
+   "ingredient": "spaghetti, uncooked",
+   "density": 0.51
+ },
+ {
+   "ingredient": "spearmint, dried",
+   "density": 0.11
+ },
+ {
+   "ingredient": "spinach, cooked",
+   "density": 0.76
+ },
+ {
+   "ingredient": "split peas",
+   "density": 0.85
+ },
+ {
+   "ingredient": "strawberries, raw, halves",
+   "density": 0.64
+ },
+ {
+   "ingredient": "strawberries, raw, pureed",
+   "density": 0.98
+ },
+ {
+   "ingredient": "sugar",
+   "density": 0.87
+ },
+ {
+   "ingredient": "sugar, brown",
+   "density": 0.85
+ },
+ {
+   "ingredient": "sugar, castor",
+   "density": 0.81
+ },
+ {
+   "ingredient": "sugar, confectioner's",
+   "density": 0.55
+ },
+ {
+   "ingredient": "sugar, granulated",
+   "density": 0.87
+ },
+ {
+   "ingredient": "sugar, powdered",
+   "density": 0.55
+ },
+ {
+   "ingredient": "sultanas",
+   "density": 0.64
+ },
+ {
+   "ingredient": "sunflower seeds, shelled",
+   "density": 0.56
+ },
+ {
+   "ingredient": "sweet potatoes, cooked",
+   "density": 1.02
+ },
+ {
+   "ingredient": "sweet potatoes, raw",
+   "density": 0.76
+ },
+ {
+   "ingredient": "syrup, corn, dark",
+   "density": 1.39
+ },
+ {
+   "ingredient": "syrup, corn, light",
+   "density": 1.44
+ },
+ {
+   "ingredient": "syrups, maple",
+   "density": 1.33
+ },
+ {
+   "ingredient": "tabasco",
+   "density": 0.96
+ },
+ {
+   "ingredient": "tarragon, dried leaves",
+   "density": 0.12
+ },
+ {
+   "ingredient": "tea",
+   "density": 0.32
+ },
+ {
+   "ingredient": "thyme, dried, leaves",
+   "density": 0.18
+ },
+ {
+   "ingredient": "thyme, fresh",
+   "density": 0.16
+ },
+ {
+   "ingredient": "tiger lily blossoms",
+   "density": 0.17
+ },
+ {
+   "ingredient": "tomato paste",
+   "density": 1.1
+ },
+ {
+   "ingredient": "tomato puree",
+   "density": 1.06
+ },
+ {
+   "ingredient": "tomatoes, chopped",
+   "density": 0.68
+ },
+ {
+   "ingredient": "tomatoes, crushed, canned",
+   "density": 1.08
+ },
+ {
+   "ingredient": "tuna, canned",
+   "density": 0.85
+ },
+ {
+   "ingredient": "turmeric, ground",
+   "density": 0.59
+ },
+ {
+   "ingredient": "vanilla extract",
+   "density": 0.88
+ },
+ {
+   "ingredient": "vanilla wafers, crushed",
+   "density": 0.68
+ },
+ {
+   "ingredient": "vinegar, balsamic",
+   "density": 1.08
+ },
+ {
+   "ingredient": "vinegar, cider",
+   "density": 1.01
+ },
+ {
+   "ingredient": "vodka, 40%",
+   "density": 0.94
+ },
+ {
+   "ingredient": "walnuts, chopped",
+   "density": 0.49
+ },
+ {
+   "ingredient": "walnuts, ground",
+   "density": 0.36
+ },
+ {
+   "ingredient": "walnuts, shelled",
+   "density": 0.51
+ },
+ {
+   "ingredient": "water",
+   "density": 1
+ },
+ {
+   "ingredient": "wheat flour, whole-grain",
+   "density": 0.51
+ },
+ {
+   "ingredient": "wheat germ",
+   "density": 0.53
+ },
+ {
+   "ingredient": "wild rice",
+   "density": 0.61
+ },
+ {
+   "ingredient": "wine, red",
+   "density": 0.99
+ },
+ {
+   "ingredient": "wine, white",
+   "density": 0.99
+ },
+ {
+   "ingredient": "yeast, active dry",
+   "density": 1.23
+ }
+]
