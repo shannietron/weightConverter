@@ -25,7 +25,7 @@
         id="inputText"
         type="text"
         class="form-control-lg"
-        placeholder="Enter Value">
+        placeholder="Enter Value" autofocus>
       </div>
     </form>
     <div id="output">
@@ -69,7 +69,9 @@ function(e){
   let inputText = e.target.value;
 suggestion = document.getElementById('suggestion')
 result = fuse.search(inputText);
-suggestion.innerHTML=result[0].ingredient;
+suggestion.innerHTML=result[0].ingredient+"   "+result[0].density+" g/ml";
+
+
 
   console.log(inputText);
 })
