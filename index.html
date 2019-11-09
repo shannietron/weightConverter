@@ -29,9 +29,24 @@
       </div>
     </form>
     <div id="output">
-      <div class="card bg-primary">
+      <div class="card bg-success mb-4">
         <div class="card-body">
-          <div id="suggestion"></div>
+          <div id="activeSuggestion"></div>
+        </div>
+      </div>
+      <div class="card bg-secondary mb-2">
+        <div class="card-body">
+          <div id="suggestion1"></div>
+        </div>
+      </div>
+      <div class="card bg-secondary mb-2">
+        <div class="card-body">
+          <div id="suggestion2"></div>
+        </div>
+      </div>
+      <div class="card bg-secondary">
+        <div class="card-body">
+          <div id="suggestion3"></div>
         </div>
       </div>
     </div>
@@ -53,28 +68,39 @@ var options = {
 };
 
 
-fetch('densities.json')
-  .then(response => {
-    return response.json()
-  })
-  .then(data => {
-    densities = data;
-    fuse = new Fuse(densities,options);
-  })
+setupDensitySearch();
 
 document.getElementById('output').style.visibility='hidden'
 document.getElementById('inputText').addEventListener('input',
 function(e){
   document.getElementById('output').style.visibility='visible'
   let inputText = e.target.value;
-suggestion = document.getElementById('suggestion')
 result = fuse.search(inputText);
-suggestion.innerHTML=result[0].ingredient+"   "+result[0].density+" g/ml";
-
-
-
-  console.log(inputText);
+updateResults();
+console.log(inputText);
 })
+
+
+function setupDensitySearch(){
+  fetch('densities.json')
+    .then(response => {
+      return response.json()
+    })
+    .then(data => {
+      densities = data;
+      fuse = new Fuse(densities,options);
+    })
+}
+
+function updateResults(){
+  var elements = document.getElementsByClassName("card-body");
+  for (var i= 0, j=elements.length; i < j; i++) {
+    elements[i].innerHTML=result[i].ingredient;
+    elements[i].innerHTML+="   "+result[i].density+" g/cm³"
+  }
+}
+
+
 </script>
 
 </body>
