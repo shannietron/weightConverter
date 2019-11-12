@@ -17,91 +17,93 @@
 <body>
 <div class="container">
   <div class="row">
-    <div class="col-sm-6 offset-3">
-    <h1 class="display-3 mb-4"> Convert It </h1>
+    <div class="col-sm-8 offset-2">
+      <h1 class="display-3 mb-4"> Convert It </h1>
     <form>
       <div class="form-group">
         <input
-        id="inputText"
+        id="ingredient"
         type="text"
         class="form-control-lg"
-        placeholder="Enter Value" autofocus>
+        placeholder="Enter ingredient"
+         autocomplete="off" autofocus>
+
+         <input
+         id="unit"
+         type="text"
+         class="form-control-lg"
+         placeholder="Enter unit"
+          autocomplete="off">
+
+         <input
+         id="quantity"
+         type="number"
+         class="form-control-lg"
+         placeholder="Enter quantity"
+          autocomplete="off">
       </div>
     </form>
-    <div id="output">
-      <div class="card bg-success mb-4">
+    <div class="row">
+      <div class="col-sm-4">
+      <div id="ingredientOutput">
+      <div class="card bg-success mb-2">
         <div class="card-body">
-          <div id="activeSuggestion"></div>
+          <div id="activeIngredient"></div>
         </div>
       </div>
       <div class="card bg-secondary mb-2">
         <div class="card-body">
-          <div id="suggestion1"></div>
+          <div id="ingredientSuggestion1"></div>
         </div>
       </div>
       <div class="card bg-secondary mb-2">
         <div class="card-body">
-          <div id="suggestion2"></div>
+          <div id="ingredientSuggestion2"></div>
         </div>
       </div>
       <div class="card bg-secondary">
         <div class="card-body">
-          <div id="suggestion3"></div>
+          <div id="ingredientSuggestion3"></div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+      <div class="col-sm-4">
+      <div id="unitOutput">
+      <div class="card bg-primary mb-2">
+        <div class="card-body">
+          <div id="activeUnit"></div>
+        </div>
+      </div>
+      <div class="card bg-secondary mb-2">
+        <div class="card-body">
+          <div id="unitSuggestion1"></div>
+        </div>
+      </div>
+      <div class="card bg-secondary mb-2">
+        <div class="card-body">
+          <div id="unitSuggestion2"></div>
+        </div>
+      </div>
+      <div class="card bg-secondary">
+        <div class="card-body">
+          <div id="unitSuggestion3"></div>
         </div>
       </div>
     </div>
     </div>
   </div>
+
+
+
+    </div>
+  </div>
 </div>
 
+<script src="weightConverter.js"></script>
 
-<script>
-
-var options = {
-  shouldSort: true,
-  threshold: 0.6,
-  location: 0,
-  distance: 100,
-  maxPatternLength: 32,
-  minMatchCharLength: 1,
-  keys: ["ingredient"]
-};
-
-
-setupDensitySearch();
-
-document.getElementById('output').style.visibility='hidden'
-document.getElementById('inputText').addEventListener('input',
-function(e){
-  document.getElementById('output').style.visibility='visible'
-  let inputText = e.target.value;
-result = fuse.search(inputText);
-updateResults();
-console.log(inputText);
-})
-
-
-function setupDensitySearch(){
-  fetch('densities.json')
-    .then(response => {
-      return response.json()
-    })
-    .then(data => {
-      densities = data;
-      fuse = new Fuse(densities,options);
-    })
-}
-
-function updateResults(){
-  var elements = document.getElementsByClassName("card-body");
-  for (var i= 0, j=elements.length; i < j; i++) {
-    elements[i].innerHTML=result[i].ingredient;
-    elements[i].innerHTML+="   "+result[i].density+" g/cm³"
-  }
-}
-
-
-</script>
 
 </body>
 </html>
