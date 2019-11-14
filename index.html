@@ -17,7 +17,7 @@
 <body>
 <div class="container">
   <div class="row">
-    <div class="col-sm-8 offset-2">
+    <div class="col">
       <h1 class="display-3 mb-4"> Convert It </h1>
 
   <div class="row">
@@ -27,21 +27,21 @@
         <input
         id="ingredient"
         type="text"
-        class="form-control-lg mx-1"
+        class="form-control mx-1"
         placeholder="Enter ingredient"
          autocomplete="off" autofocus>
 
          <input
          id="unit"
          type="text"
-         class="form-control-lg mx-1"
+         class="form-control mx-1"
          placeholder="Enter unit"
-          autocomplete="off">
+          autocomplete="off" >
 
          <input
          id="quantity"
          type="number"
-         class="form-control-lg mx-1"
+         class="form-control mx-1"
          placeholder="Enter quantity"
           autocomplete="off">
       </div>
@@ -49,7 +49,7 @@
   </div>
   </div>
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-sm">
       <div id="ingredientOutput">
       <div class="card bg-success mb-2">
         <div class="card-body">
@@ -75,7 +75,7 @@
     </div>
 
 
-      <div class="col-sm-4 pl-0 ml-0">
+      <div class="col-sm">
       <div id="unitOutput">
       <div class="card bg-primary mb-2">
         <div class="card-body">
@@ -99,13 +99,24 @@
       </div>
     </div>
     </div>
+
   </div>
-
-
-
+  </div>
     </div>
+
+    <div class="row">
+      <div class="col">
+        <div class="card-body bg-info mt-4">
+          <div id="outputGrams"></div>
+        </div>
+        <div class="card-body bg-info mt-4">
+          <div id="outputLitres"></div>
+        </div>
+      </div>
   </div>
-</div>
+
+  </div>
+
 
 <script src="weightConverter.js"></script>
 
