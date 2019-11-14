@@ -17,6 +17,29 @@
    "name": "litre",
    "isVolume": true,
    "conversion":1000,
-   "unit":"l" 
+   "unit":"l"
+ },
+
+ {
+   "name": "teaspoon",
+   "isVolume": true,
+   "conversion":5,
+   "unit":"t",
+   "alternateName":"tsp"
+ },
+ {
+   "name": "tablespoon",
+   "isVolume": true,
+   "conversion":15,
+   "unit":"T",
+   "alternateName":"tbsp"
+ },
+
+ {
+   "name": "fluid ounces",
+   "isVolume": true,
+   "conversion":29.6,
+   "unit":"fl oz"
  }
+
 ]
