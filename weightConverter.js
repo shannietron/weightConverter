@@ -16,31 +16,48 @@ setupUnitSearch();
 
 document.getElementById('ingredientOutput').style.visibility='hidden'
 document.getElementById('unitOutput').style.visibility='hidden'
+document.getElementById('convertedOutput').style.visibility='hidden'
+
 var ingredientOutputElements = document.getElementById("ingredientOutput").getElementsByClassName("card-body");
 var unitOutputElements = document.getElementById("unitOutput").getElementsByClassName("card-body");
+var outputGrams = document.getElementById("outputGrams");
+var outputTeaspoons = document.getElementById("outputTeaspoons");
 
 
 document.getElementById('ingredient').addEventListener('input',
 function(e){
   document.getElementById('ingredientOutput').style.visibility='visible'
   let ingredient = e.target.value;
-result = densitySearch.search(ingredient);
-updateResults(ingredientOutputElements,"ingredient","density");
-console.log(ingredient);
+  result = densitySearch.search(ingredient);
+  selectedIngredient = updateResults(ingredientOutputElements,"ingredient","density","g/cm³");
+  convert();
+  console.log(ingredient);
 })
 
 document.getElementById('unit').addEventListener('input',
 function(e){
   document.getElementById('unitOutput').style.visibility='visible'
   let unit = e.target.value;
-result = unitSearch.search(unit);
-updateResults(unitOutputElements,"name","unit");
-console.log(unit);
+  result = unitSearch.search(unit);
+  selectedUnit = updateResults(unitOutputElements,"name","conversion");
+  convert();
+  console.log(unit);
+})
+
+document.getElementById('quantity').addEventListener('input',
+function(e){
+  quantity = e.target.value;
+  convert();
+  console.log(quantity);
 })
 
 
 
+function convert(){
+  document.getElementById('convertedOutput').style.visibility='visible';
+  outputGrams.innerHTML=quantity*selectedUnit.conversion*selectedIngredient.density + " grams";
 
+}
 
 function setupDensitySearch(){
   fetch('densities.json')
@@ -61,16 +78,17 @@ function setupUnitSearch(){
     .then(data => {
       units = data;
       var unitOptions = options;
-      unitOptions.keys=["name"];
+      unitOptions.keys=["name","alternateName","unit"];
+      unitOptions.threshold= 0.1;
+      console.log(unitOptions);
       unitSearch = new Fuse(units,unitOptions);
     })
 }
 
-function updateResults(elements,key1,key2){
-  // var elements = document.getElementsByClassName("card-body");
-  var selectedIngredient = result[0];
+function updateResults(elements,key1,key2,units=""){
   for (var i= 0, j=elements.length; i < j; i++) {
     elements[i].innerHTML=result[i][key1];
-    elements[i].innerHTML+="   "+result[i][key2]+" g/cm³"
+    elements[i].innerHTML+="   "+result[i][key2]+units;
   }
+  return result[0];
 }
