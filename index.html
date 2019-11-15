@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.4.5/fuse.min.js"></script>
@@ -7,101 +8,86 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <style>
-  body{
-    background: #333;
-    color: #fff;
-  }
+    body {
+      background: #333;
+      color: #fff;
+    }
   </style>
   <title>weightConverter</title>
 </head>
+
 <body>
-<div class="container">
-  <div class="row">
-    <div class="col">
-      <h1 class="display-3 mb-4"> Convert It </h1>
-
-  <div class="row">
-    <div class="col">
-    <form>
-      <div class="form-group">
-        <input
-        id="ingredient"
-        type="text"
-        class="form-control mx-1"
-        placeholder="Enter ingredient"
-         autocomplete="off" autofocus>
-
-         <input
-         id="unit"
-         type="text"
-         class="form-control mx-1"
-         placeholder="Enter unit"
-          autocomplete="off" >
-
-         <input
-         id="quantity"
-         type="number"
-         class="form-control mx-1"
-         placeholder="Enter quantity"
-          autocomplete="off">
-      </div>
-    </form>
-  </div>
-  </div>
+  <div class="container">
     <div class="row">
-      <div class="col-sm">
-      <div id="ingredientOutput">
-      <div class="card bg-success mb-2">
-        <div class="card-body">
-          <div id="activeIngredient"></div>
+      <div class="col">
+        <h1 class="display-3 mb-4"> Convert It </h1>
+
+        <div class="row">
+          <div class="col">
+            <form>
+              <div class="form-group">
+                <input id="ingredient" type="text" class="form-control mx-1" placeholder="Enter ingredient" autocomplete="off" autofocus>
+
+                <input id="unit" type="text" class="form-control mx-1" placeholder="Enter unit" autocomplete="off">
+
+                <input id="quantity" type="number" class="form-control mx-1" placeholder="Enter quantity" autocomplete="off">
+              </div>
+            </form>
+          </div>
         </div>
-      </div>
-      <div class="card bg-secondary mb-2">
-        <div class="card-body">
-          <div id="ingredientSuggestion1"></div>
-        </div>
-      </div>
-      <div class="card bg-secondary mb-2">
-        <div class="card-body">
-          <div id="ingredientSuggestion2"></div>
-        </div>
-      </div>
-      <div class="card bg-secondary">
-        <div class="card-body">
-          <div id="ingredientSuggestion3"></div>
-        </div>
-      </div>
-    </div>
-    </div>
+        <div class="row">
+          <div class="col-sm">
+            <div id="ingredientOutput">
+              <div class="card bg-success mb-2">
+                <div class="card-body">
+                  <div id="activeIngredient"></div>
+                </div>
+              </div>
+              <div class="card bg-secondary mb-2">
+                <div class="card-body">
+                  <div id="ingredientSuggestion1"></div>
+                </div>
+              </div>
+              <div class="card bg-secondary mb-2">
+                <div class="card-body">
+                  <div id="ingredientSuggestion2"></div>
+                </div>
+              </div>
+              <div class="card bg-secondary">
+                <div class="card-body">
+                  <div id="ingredientSuggestion3"></div>
+                </div>
+              </div>
+            </div>
+          </div>
 
 
-      <div class="col-sm">
-      <div id="unitOutput">
-      <div class="card bg-primary mb-2">
-        <div class="card-body">
-          <div id="activeUnit"></div>
+          <div class="col-sm">
+            <div id="unitOutput">
+              <div class="card bg-primary mb-2">
+                <div class="card-body">
+                  <div id="activeUnit"></div>
+                </div>
+              </div>
+              <div class="card bg-secondary mb-2">
+                <div class="card-body">
+                  <div id="unitSuggestion1"></div>
+                </div>
+              </div>
+              <div class="card bg-secondary mb-2">
+                <div class="card-body">
+                  <div id="unitSuggestion2"></div>
+                </div>
+              </div>
+              <div class="card bg-secondary">
+                <div class="card-body">
+                  <div id="unitSuggestion3"></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="card bg-secondary mb-2">
-        <div class="card-body">
-          <div id="unitSuggestion1"></div>
-        </div>
-      </div>
-      <div class="card bg-secondary mb-2">
-        <div class="card-body">
-          <div id="unitSuggestion2"></div>
-        </div>
-      </div>
-      <div class="card bg-secondary">
-        <div class="card-body">
-          <div id="unitSuggestion3"></div>
-        </div>
-      </div>
-    </div>
-    </div>
-
-  </div>
-  </div>
     </div>
 
     <div class="row">
@@ -113,13 +99,14 @@
           <div id="outputLitres"></div>
         </div>
       </div>
-  </div>
+    </div>
 
   </div>
 
 
-<script src="weightConverter.js"></script>
+  <script src="weightConverter.js"></script>
 
 
 </body>
+
 </html>
