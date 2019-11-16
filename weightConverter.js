@@ -28,8 +28,8 @@ document.getElementById('ingredient').addEventListener('input',
 function(e){
   document.getElementById('ingredientOutput').style.visibility='visible'
   let ingredient = e.target.value;
-  result = densitySearch.search(ingredient);
-  selectedIngredient = updateResults(ingredientOutputElements,"ingredient","density","g/cm³");
+  let result = densitySearch.search(ingredient);
+  selectedIngredient = updateResults(result,ingredientOutputElements,"ingredient","density","g/cm³");
   convert();
   console.log(ingredient);
 })
@@ -38,8 +38,8 @@ document.getElementById('unit').addEventListener('input',
 function(e){
   document.getElementById('unitOutput').style.visibility='visible'
   let unit = e.target.value;
-  result = unitSearch.search(unit);
-  selectedUnit = updateResults(unitOutputElements,"name","conversion");
+  let result = unitSearch.search(unit);
+  selectedUnit = updateResults(result,unitOutputElements,"name","conversion");
   convert();
   console.log(unit);
 })
@@ -85,7 +85,7 @@ function setupUnitSearch(){
     })
 }
 
-function updateResults(elements,key1,key2,units=""){
+function updateResults(result,elements,key1,key2,units=""){
   for (var i= 0, j=elements.length; i < j; i++) {
     elements[i].innerHTML=result[i][key1];
     elements[i].innerHTML+="   "+result[i][key2]+units;
