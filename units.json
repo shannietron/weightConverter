@@ -36,10 +36,59 @@
  },
 
  {
-   "name": "fluid ounces",
+   "name": "US fluid ounce",
    "isVolume": true,
-   "conversion":29.6,
+   "conversion":29.57,
    "unit":"fl oz"
+ },
+
+ {
+   "name": "ounce",
+   "isVolume": false,
+   "conversion":28.3,
+   "unit":"oz"
+ },
+
+ {
+   "name": "US cup",
+   "isVolume": true,
+   "conversion":236.59,
+   "unit":"cup"
+ },
+
+ {
+   "name": "US pint",
+   "isVolume": true,
+   "conversion":473,
+   "unit":"pint"
+ },
+
+ {
+   "name": "US quart",
+   "isVolume": true,
+   "conversion":946,
+   "unit":"qt"
+ },
+
+ {
+   "name": "US gal",
+   "isVolume": true,
+   "conversion":3785,
+   "unit":"gal"
+ },
+
+ {
+   "name": "grams",
+   "isVolume": false,
+   "conversion":1,
+   "unit":"g"
+ },
+
+ {
+   "name": "pounds",
+   "isVolume": false,
+   "conversion":453,
+   "unit":"lb"
  }
 
 ]
