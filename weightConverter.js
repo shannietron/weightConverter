@@ -29,7 +29,8 @@ function(e){
   document.getElementById('ingredientOutput').style.visibility='visible'
   let ingredient = e.target.value;
   let result = densitySearch.search(ingredient);
-  selectedIngredient = updateResults(result,ingredientOutputElements,"ingredient","density","g/cm³");
+  selectedIngredient = result[0];
+  updateResults(result,ingredientOutputElements,"ingredient","density","g/cm³");
   convert();
   console.log(ingredient);
 })
@@ -39,7 +40,9 @@ function(e){
   document.getElementById('unitOutput').style.visibility='visible'
   let unit = e.target.value;
   let result = unitSearch.search(unit);
-  selectedUnit = updateResults(result,unitOutputElements,"name","conversion");
+  selectedUnit = result[0];
+  console.log(selectedUnit);
+  updateResults(result,unitOutputElements,"name","conversion");
   convert();
   console.log(unit);
 })
@@ -54,6 +57,7 @@ function(e){
 
 
 function convert(){
+  console.log("converted");
   document.getElementById('convertedOutput').style.visibility='visible';
   outputGrams.innerHTML=quantity*selectedUnit.conversion*selectedIngredient.density + " grams";
 
@@ -86,9 +90,10 @@ function setupUnitSearch(){
 }
 
 function updateResults(result,elements,key1,key2,units=""){
-  for (var i= 0, j=elements.length; i < j; i++) {
-    elements[i].innerHTML=result[i][key1];
-    elements[i].innerHTML+="   "+result[i][key2]+units;
+  for (var i= 0, j=elements.length, k=result.length; i < j; i++) {
+    if(i<result.length){
+      elements[i].innerHTML=result[i][key1];
+      elements[i].innerHTML+="   "+result[i][key2]+units;
+    }
   }
-  return result[0];
 }
