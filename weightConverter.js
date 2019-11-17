@@ -9,7 +9,7 @@ var options = {
 };
 
 
-
+quantity = 1;
 setupDensitySearch();
 setupUnitSearch();
 
@@ -57,12 +57,12 @@ document.getElementById('quantity').addEventListener('input',
 
 function convert() {
   document.getElementById('convertedOutput').style.visibility = 'visible';
-  if(selectedUnit.isVolume){
+  if (selectedUnit.isVolume) {
     outputGrams.innerHTML = quantity * selectedUnit.conversion * selectedIngredient.density + " grams";
     outputMillilitres.innerHTML = quantity * selectedUnit.conversion + " cm³"
-  } else{
+  } else {
     outputGrams.innerHTML = quantity * selectedUnit.conversion + " grams";
-    let specificVolume = 1/selectedIngredient.density;
+    let specificVolume = 1 / selectedIngredient.density;
     outputMillilitres.innerHTML = (quantity * selectedUnit.conversion * specificVolume).toFixed(2) + " cm³"
   }
 

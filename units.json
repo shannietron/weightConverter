@@ -1,94 +1,93 @@
-[
- {
-   "name": "millilitre",
-   "isVolume": true,
-   "conversion":1.00,
-   "unit":"ml",
-   "alternateName":"cm3"
- },
- {
-   "name": "decilitre",
-   "isVolume": true,
-   "conversion":100,
-   "unit":"dl"
- },
+[{
+    "name": "millilitre",
+    "isVolume": true,
+    "conversion": 1.00,
+    "unit": "ml",
+    "alternateName": "cm3"
+  },
+  {
+    "name": "decilitre",
+    "isVolume": true,
+    "conversion": 100,
+    "unit": "dl"
+  },
 
- {
-   "name": "litre",
-   "isVolume": true,
-   "conversion":1000,
-   "unit":"l"
- },
+  {
+    "name": "litre",
+    "isVolume": true,
+    "conversion": 1000,
+    "unit": "l"
+  },
 
- {
-   "name": "teaspoon",
-   "isVolume": true,
-   "conversion":5,
-   "unit":"t",
-   "alternateName":"tsp"
- },
- {
-   "name": "tablespoon",
-   "isVolume": true,
-   "conversion":15,
-   "unit":"T",
-   "alternateName":"tbsp"
- },
+  {
+    "name": "teaspoon",
+    "isVolume": true,
+    "conversion": 5,
+    "unit": "t",
+    "alternateName": "tsp"
+  },
+  {
+    "name": "tablespoon",
+    "isVolume": true,
+    "conversion": 15,
+    "unit": "T",
+    "alternateName": "tbsp"
+  },
 
- {
-   "name": "US fluid ounce",
-   "isVolume": true,
-   "conversion":29.57,
-   "unit":"fl oz"
- },
+  {
+    "name": "US fluid ounce",
+    "isVolume": true,
+    "conversion": 29.57,
+    "unit": "fl oz"
+  },
 
- {
-   "name": "ounce",
-   "isVolume": false,
-   "conversion":28.3,
-   "unit":"oz"
- },
+  {
+    "name": "ounce",
+    "isVolume": false,
+    "conversion": 28.3,
+    "unit": "oz"
+  },
 
- {
-   "name": "US cup",
-   "isVolume": true,
-   "conversion":236.59,
-   "unit":"cup"
- },
+  {
+    "name": "US cup",
+    "isVolume": true,
+    "conversion": 236.59,
+    "unit": "cup"
+  },
 
- {
-   "name": "US pint",
-   "isVolume": true,
-   "conversion":473,
-   "unit":"pint"
- },
+  {
+    "name": "US pint",
+    "isVolume": true,
+    "conversion": 473,
+    "unit": "pint"
+  },
 
- {
-   "name": "US quart",
-   "isVolume": true,
-   "conversion":946,
-   "unit":"qt"
- },
+  {
+    "name": "US quart",
+    "isVolume": true,
+    "conversion": 946,
+    "unit": "qt"
+  },
 
- {
-   "name": "US gal",
-   "isVolume": true,
-   "conversion":3785,
-   "unit":"gal"
- },
+  {
+    "name": "US gal",
+    "isVolume": true,
+    "conversion": 3785,
+    "unit": "gal"
+  },
 
- {
-   "name": "grams",
-   "isVolume": false,
-   "conversion":1,
-   "unit":"g"
- },
+  {
+    "name": "grams",
+    "isVolume": false,
+    "conversion": 1,
+    "unit": "g"
+  },
 
- {
-   "name": "pounds",
-   "isVolume": false,
-   "conversion":453,
-   "unit":"lb"
- }
+  {
+    "name": "pounds",
+    "isVolume": false,
+    "conversion": 453,
+    "unit": "lb"
+  }
 
 ]
