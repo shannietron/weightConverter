@@ -57,7 +57,6 @@ function(e){
 
 
 function convert(){
-  console.log("converted");
   document.getElementById('convertedOutput').style.visibility='visible';
   outputGrams.innerHTML=quantity*selectedUnit.conversion*selectedIngredient.density + " grams";
 
@@ -83,8 +82,6 @@ function setupUnitSearch(){
       units = data;
       var unitOptions = options;
       unitOptions.keys=["name","alternateName","unit"];
-      unitOptions.threshold= 0.1;
-      console.log(unitOptions);
       unitSearch = new Fuse(units,unitOptions);
     })
 }
